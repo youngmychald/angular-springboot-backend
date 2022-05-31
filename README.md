@@ -1,4 +1,4 @@
-# Ensono Angular Spring Boot JPA/Hibernate Web Project
+# Angular Spring Boot JPA/Hibernate Web Project
 This application provides the REST API services utilizing jaave 1.8 and JPA/Hibernate to perform the major CRUD operations for their respective REST URI endpoints. It contains the business data model and workflow engine.
 
 ## Technologies Used

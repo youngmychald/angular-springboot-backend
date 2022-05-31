@@ -60,12 +60,11 @@ public class ContactController {
 		return ResponseEntity.ok(contact);
 	}
 
-	
 	/**
 	 * Update a contact by ID.
 	 *
 	 * @param ContactDTO ID.
-	 * @param aContact Employee object form the request body.
+	 * @param Contact object from the request body.
 	 * @return The updated Contact.
 	 */
 	
@@ -86,12 +85,11 @@ public class ContactController {
 		return ResponseEntity.ok(updatedContact);
 	}
 
-	
 	/**
 	 * Delete a contact by ID.
 	 *
 	 * @param id Contact ID.
-	 * @return Deleted Employee object.
+	 * @return Deleted Contact object.
 	 */
 	
 	@DeleteMapping("/contacts/{id}")
@@ -105,5 +103,4 @@ public class ContactController {
 		response.put("deleted", Boolean.TRUE);
 		return ResponseEntity.ok(response);
 	}
-
 }

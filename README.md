@@ -1,5 +1,5 @@
 # Angular Spring Boot JPA/Hibernate Web Project
-This application provides the REST API services utilizing jaave 1.8 and JPA/Hibernate to perform the major CRUD operations for their respective REST URI endpoints. It contains the business data model and workflow engine.
+This Spring Boot application provides the REST API services utilizing Java 1.8 and JPA/Hibernate to perform the major CRUD operations for their respective REST URI endpoints. The front-end UI is authored inm Angular 12.  Currently there is not Service layer ore its implementations as the current CRUD operations are satisfied by extending the JpaRepository in the repository layer.
 
 ## Technologies Used
  1. Spring Boot 2.7.
